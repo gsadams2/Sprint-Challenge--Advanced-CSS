@@ -4,6 +4,10 @@
 .max-width {
   max-width: 100%;
 }
+.hover-yo {
+  background-color: yellow;
+  color: black;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -141,7 +145,7 @@ html {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
-  color: #5E6164;
+  color: #5e6164;
 }
 h1,
 h2,
@@ -149,7 +153,7 @@ h3,
 h4,
 h5 {
   font-family: 'Russo One', sans-serif;
-  color: #23293B;
+  color: #23293b;
 }
 h2 {
   font-size: 3.2rem;
@@ -238,6 +242,19 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .sign-up {
+  color: white;
+  background-color: #23293b;
+  padding: 7px 21px;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 2rem;
+  font-family: "Ubuntu", sans-serif;
+}
+.home .walk .walk-text .sign-up:hover {
+  background-color: yellow;
+  color: black;
 }
 .home .walk .walk-img {
   width: 46%;
