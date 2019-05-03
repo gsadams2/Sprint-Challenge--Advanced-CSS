@@ -1,1 +1,26 @@
 // Navigation code here
+
+.nav-space {
+  .flex-box();
+  flex-direction: column;
+  .max-width();
+  width: 56%;
+  margin: auto;
+  text-align: center;
+  @media @phone {
+    .max-width();
+    width: 180%;
+  }
+  nav {
+    padding-right: 30px;
+    padding-top: 10px;
+    a {
+      text-decoration: none;
+      color: black;
+      padding-left: 18px;
+      @media @phone {
+        padding-left: 50px;
+      }
+    }
+  }
+}
